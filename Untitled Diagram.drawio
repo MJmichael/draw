@@ -1,50 +1,148 @@
-<mxfile host="app.diagrams.net" modified="2022-06-06T08:06:08.322Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36 Edg/102.0.1245.30" etag="rwujM6_IxpJMfjaQcOKJ" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-17T03:26:43.784Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.124 Safari/537.36 Edg/102.0.1245.41" etag="ic27omJWPfxAgdRP1UDv" version="19.0.1" type="github">
   <diagram id="nk09Ow2Tgvu_46yiroYu" name="Page-1">
-    <mxGraphModel dx="1405" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0SeToDfGv5J8gcjp9E8y-31" value="云密码机" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="190" width="410" height="164" as="geometry" />
+        <mxCell id="0SeToDfGv5J8gcjp9E8y-31" value="密码设备" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="177" y="42" width="410" height="164" as="geometry" />
         </mxCell>
-        <mxCell id="0SeToDfGv5J8gcjp9E8y-32" value="密码算法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0SeToDfGv5J8gcjp9E8y-31">
+        <mxCell id="0SeToDfGv5J8gcjp9E8y-32" value="密码算法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="0SeToDfGv5J8gcjp9E8y-31" vertex="1">
           <mxGeometry y="26" width="410" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="0SeToDfGv5J8gcjp9E8y-33" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="0SeToDfGv5J8gcjp9E8y-31">
+        <mxCell id="0SeToDfGv5J8gcjp9E8y-33" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="0SeToDfGv5J8gcjp9E8y-31" vertex="1">
           <mxGeometry y="52" width="410" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="0SeToDfGv5J8gcjp9E8y-34" value="密码服务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0SeToDfGv5J8gcjp9E8y-31">
+        <mxCell id="0SeToDfGv5J8gcjp9E8y-34" value="密码服务" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="0SeToDfGv5J8gcjp9E8y-31" vertex="1">
           <mxGeometry y="60" width="410" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="0SeToDfGv5J8gcjp9E8y-35" value="密码协议（SM2,RSA, ECC等）" style="text;strokeColor=black;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0SeToDfGv5J8gcjp9E8y-31">
+        <mxCell id="0SeToDfGv5J8gcjp9E8y-35" value="密码协议（SM2,RSA, ECC等）" style="text;strokeColor=black;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="0SeToDfGv5J8gcjp9E8y-31" vertex="1">
           <mxGeometry y="86" width="410" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="0SeToDfGv5J8gcjp9E8y-36" value="密钥备份与恢复" style="text;strokeColor=black;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0SeToDfGv5J8gcjp9E8y-31">
+        <mxCell id="0SeToDfGv5J8gcjp9E8y-36" value="密钥备份与恢复" style="text;strokeColor=black;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="0SeToDfGv5J8gcjp9E8y-31" vertex="1">
           <mxGeometry y="112" width="410" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="0SeToDfGv5J8gcjp9E8y-37" value="........." style="text;strokeColor=black;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0SeToDfGv5J8gcjp9E8y-31">
+        <mxCell id="0SeToDfGv5J8gcjp9E8y-37" value="........." style="text;strokeColor=black;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="0SeToDfGv5J8gcjp9E8y-31" vertex="1">
           <mxGeometry y="138" width="410" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="0SeToDfGv5J8gcjp9E8y-38" value="TCM密码模块" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="430" width="410" height="112" as="geometry" />
+        <mxCell id="0SeToDfGv5J8gcjp9E8y-38" value="可信密码模块" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="186" y="247" width="410" height="112" as="geometry" />
         </mxCell>
-        <mxCell id="0SeToDfGv5J8gcjp9E8y-39" value="密码运算" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0SeToDfGv5J8gcjp9E8y-38">
+        <mxCell id="0SeToDfGv5J8gcjp9E8y-39" value="密码运算" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="0SeToDfGv5J8gcjp9E8y-38" vertex="1">
           <mxGeometry y="26" width="410" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="0SeToDfGv5J8gcjp9E8y-40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="0SeToDfGv5J8gcjp9E8y-38">
+        <mxCell id="0SeToDfGv5J8gcjp9E8y-40" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="0SeToDfGv5J8gcjp9E8y-38" vertex="1">
           <mxGeometry y="52" width="410" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="0SeToDfGv5J8gcjp9E8y-41" value="密码存储" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0SeToDfGv5J8gcjp9E8y-38">
+        <mxCell id="0SeToDfGv5J8gcjp9E8y-41" value="密码存储" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="0SeToDfGv5J8gcjp9E8y-38" vertex="1">
           <mxGeometry y="60" width="410" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="0SeToDfGv5J8gcjp9E8y-43" value="通信模块" style="text;strokeColor=black;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0SeToDfGv5J8gcjp9E8y-38">
+        <mxCell id="0SeToDfGv5J8gcjp9E8y-43" value="通信模块" style="text;strokeColor=black;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="0SeToDfGv5J8gcjp9E8y-38" vertex="1">
           <mxGeometry y="86" width="410" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="0SeToDfGv5J8gcjp9E8y-45" value="云密码机" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="600" width="410" height="80" as="geometry" />
+        <mxCell id="0SeToDfGv5J8gcjp9E8y-45" value="密码设备" style="html=1;" parent="1" vertex="1">
+          <mxGeometry x="186" y="417" width="410" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0SeToDfGv5J8gcjp9E8y-48" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="354" y="542" width="60" height="58" as="geometry" />
+        <mxCell id="0SeToDfGv5J8gcjp9E8y-48" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="312" y="359" width="27" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-1" value="传输通道" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="379" width="58" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-2" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="426" y="359" width="27" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-4" value="传输通道" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="456" y="379" width="58" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-5" value="可信密码模块" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="176.5" y="537" width="410" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-6" value="密码运算" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lEV7OV_rjoeTDlJdp4xR-5">
+          <mxGeometry y="26" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="lEV7OV_rjoeTDlJdp4xR-5">
+          <mxGeometry y="52" width="410" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-8" value="密码存储" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lEV7OV_rjoeTDlJdp4xR-5">
+          <mxGeometry y="60" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-9" value="通信模块" style="text;strokeColor=black;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lEV7OV_rjoeTDlJdp4xR-5">
+          <mxGeometry y="86" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-11" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="735" y="569" width="27" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-12" value="传输通道" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="643" y="569" width="58" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-13" value="" style="shape=doubleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="755" y="742" width="27" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="lEV7OV_rjoeTDlJdp4xR-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="724" y="708" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-14" value="传输通道" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="743" y="686" width="58" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-10" value="" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="172" y="783" width="410" height="253" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-15" value="密码算法" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="191" y="803" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-16" value="随机数生成器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="226.5" y="956" width="301" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-18" value="平台完整性" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="173" y="723" width="100" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-19" value="平台身份可信" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="327" y="723" width="100" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-20" value="平台数据安全保护" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="483" y="723" width="100" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-22" value="密码算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="186" y="878" width="103" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-23" value="密码算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="323" y="878" width="103" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-24" value="密码算法" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="467" y="878" width="103" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-33" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="228" y="874" as="sourcePoint" />
+            <mxPoint x="531" y="756" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="lEV7OV_rjoeTDlJdp4xR-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="526" y="877" as="sourcePoint" />
+            <mxPoint x="535" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.825;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="373.0049999999999" y="878" as="sourcePoint" />
+            <mxPoint x="373.02722222222224" y="754" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.825;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="226.50499999999988" y="876" as="sourcePoint" />
+            <mxPoint x="226.52722222222224" y="752" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lEV7OV_rjoeTDlJdp4xR-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.825;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="527.5049999999999" y="878" as="sourcePoint" />
+            <mxPoint x="527.5272222222222" y="754" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
