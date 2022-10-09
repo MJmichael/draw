@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2022-08-01T07:28:14.832Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edg/103.0.1264.77" version="20.0.1" etag="z82pY3v1WTsigod2E-fr" type="github"><diagram id="Q6n1hJhPNE3e2SfCSjYK">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-09T09:12:24.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.37" etag="1ocC6jwJPFJwOxem1M-L" version="20.2.3" type="github">
+  <diagram id="Q6n1hJhPNE3e2SfCSjYK" name="第 1 页">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="6GuMxgfOp4xLjjdGUqEl-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6GuMxgfOp4xLjjdGUqEl-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6GuMxgfOp4xLjjdGUqEl-10" value="" style="rounded=0;whiteSpace=wrap;html=1;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="180" y="30" width="440" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="6GuMxgfOp4xLjjdGUqEl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6GuMxgfOp4xLjjdGUqEl-1" target="6GuMxgfOp4xLjjdGUqEl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6GuMxgfOp4xLjjdGUqEl-1" value="autorelease.sh" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="50" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6GuMxgfOp4xLjjdGUqEl-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6GuMxgfOp4xLjjdGUqEl-2" target="6GuMxgfOp4xLjjdGUqEl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6GuMxgfOp4xLjjdGUqEl-2" value="auto_pack.sh&lt;br&gt;pxe-release.sh" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="312" y="180" width="145" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6GuMxgfOp4xLjjdGUqEl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6GuMxgfOp4xLjjdGUqEl-3" target="6GuMxgfOp4xLjjdGUqEl-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6GuMxgfOp4xLjjdGUqEl-3" value="1. pxe-release.sh&lt;br&gt;2. pxe基础软件目录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="495" width="440" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6GuMxgfOp4xLjjdGUqEl-4" value="1. 通过git拉取编译好的应用&lt;br&gt;2. 执行scp，将应用替换到pxe服务器上&lt;br&gt;3. 执行scp，将pxe-release.sh放到pxe服务器上&lt;br&gt;4. 通过ssh，远程执行pxe-release.sh" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="285" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6GuMxgfOp4xLjjdGUqEl-6" value="通过git拉取autorelease.git" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="130" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6GuMxgfOp4xLjjdGUqEl-7" value="autorelease.git" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="145" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6GuMxgfOp4xLjjdGUqEl-9" value="auto_pack.sh" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="385" y="255" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6GuMxgfOp4xLjjdGUqEl-11" value="持续集成服务器&lt;br&gt;10.0.100.230" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="50" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6GuMxgfOp4xLjjdGUqEl-12" value="PXE服务器&lt;br&gt;10.0.100.2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="500" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6GuMxgfOp4xLjjdGUqEl-14" value="auto_pack.sh 执行命令" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="420" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6GuMxgfOp4xLjjdGUqEl-16" value="执行scp复制pxe软件包&lt;br&gt;pxe.zip" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="430" width="150" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
